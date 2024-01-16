@@ -14,7 +14,7 @@ const PORT = 3306;
 app.use(express.json())
 app.use(cookieParser());
 
-const allowedOrigins = ['https://sadraoverview.vercel.app'];
+const allowedOrigins = ['https://sadraview.vercel.app'];
 
 app.use(cors({
     origin: allowedOrigins,
